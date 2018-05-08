@@ -38,7 +38,8 @@ app.use('/oauth',oauth);
 // To add cors to restrict getting User Token  
 app.use('/authorize',authorize);
 
-app.post('/login', passport.authenticate('ldapauth', {session: false}), function(req, res) {
+// app.post('/login', passport.authenticate('ldapauth', {session: false}), function(req, res) {
+app.post('/login', function(req, res) {
   // console.log(req);
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'PUT, GET, POST, DELETE, OPTIONS');

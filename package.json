@@ -44,6 +44,7 @@
     "bootstrap": "^3.3.0",
     "flux": "^2.0.1",
     "jwt-decode": "^1.1.0",
+    "oauth2-server": "^3.0.0",
     "passport": "^0.3.2",
     "passport-ldapauth": "^2.0.0",
     "react": "^0.13",

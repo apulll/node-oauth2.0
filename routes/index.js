@@ -6,6 +6,7 @@ var dirname = require('../config').root;
 
 /* GET home page. */
 router.get('/', function(req, res, next){
+	console.log(dirname,'dirname===')
     res.sendFile(path.join(dirname, 'index.html'));
 })
 
